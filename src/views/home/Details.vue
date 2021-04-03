@@ -7,11 +7,11 @@
         </div>
       </div>
       <div class="col-6 text-left text-justify">
-        <div class="display-3">{{ product.name }}</div>
+        <div class="display-2">{{ product.name }}</div>
         <p class="lead text-justify">{{ product.content }}</p>
         <div>
-          <p class="h3">Price</p>
-          <p class="h2">${{ product.price }}</p>
+          <p class="h5">Price</p>
+          <p class="h4">${{ product.price }}</p>
         </div>
         <AddToCart :product="product" v-if="user.uid" />
       </div>
@@ -47,7 +47,7 @@ export default {
   padding: 30px;
 }
 .image-product {
-  width: 100%;
+  width: 50%;
 }
 .card * {
   max-height: 85vh;

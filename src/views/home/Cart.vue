@@ -8,7 +8,7 @@
           href="#"
           class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
         >
-          <img :src="item.imageUrl" alt height="40" width="40" />
+          <img :src="item.imageUrl" alt height="60" width="60" />
           <p class="h5">{{ item.name }}</p>
           <div class="row">
             <div class="mr-2">
